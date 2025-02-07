@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#genreFilter {
+    margin-left: 10px;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+circle {
+    fill: steelblue;
+    stroke: #333;
+    stroke-width: 1px;
+    opacity: 0.7;
+}
+
+circle:hover {
+    opacity: 1.0;
+}

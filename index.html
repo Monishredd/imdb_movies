@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IMDb Ratings Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='static/styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <h1>IMDb Ratings Visualization</h1>
+    <div>
+        <label for="genreFilter">Filter by Genre:</label>
+        <select id="genreFilter">
+            <option value="All">All Genres</option>
+        </select>
+    </div>
+    <svg width="800" height="500"></svg>
+    <script src="{{ url_for('static', filename='static/app.js') }}"></script>
+</body>
+</html>
